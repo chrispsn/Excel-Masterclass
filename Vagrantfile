@@ -10,7 +10,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
   config.vm.synced_folder "", "/home/vagrant/vagrant"
 
-  config.vm.provision "shell", path: "sphinx_install.sh"
+  config.vm.provision "shell", inline: "apt-get -y install python-pip"
+  config.vm.provision "shell", inline: "pip install -r /home/vagrant/vagrant/requirements.txt"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,

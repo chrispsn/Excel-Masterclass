@@ -1,2 +1,5 @@
 sphinx_docs/build/
 .vagrant/
+SECRETNOTES.md
+nginx.conf
+restart_server.sh

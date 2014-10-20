@@ -6,7 +6,7 @@ About
 
 There are plenty of Excel tutorials on the internet, but most focus on how to use specific features. They don't focus on how to use features **well**.
 
-This tutorial focuses on **spreadsheet design choices**. We'll discuss questions such as:
+This tutorial instead focuses on **spreadsheet design choices**. We'll discuss questions such as:
 
 * How should I structure my data?
 * How should I write this formula?
@@ -16,7 +16,7 @@ It assumes you already know how to use Excel reasonably well - and can create wo
 
 * Reduce confusion for end users
 * Save time in maintenance
-* Reduce the likelihood of errors
+* Reduce the likelihood of errors.
 
 We will look at concrete examples along the way.
 

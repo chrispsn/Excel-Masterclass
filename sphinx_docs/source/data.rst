@@ -4,6 +4,8 @@ Data
 
 Structure data so it can be easily consumed by Excel's functions - one column per dimension of data.
 
+.. XXX currently describe records in calculation article - should this be done here?
+
 Store records in Excel Tables:
 
 * Data structure naturally falls out

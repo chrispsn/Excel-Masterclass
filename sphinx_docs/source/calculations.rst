@@ -2,5 +2,15 @@
 Calculations
 ============
 
-* The fastest way to apply a formula is using XXX
-* Perform scenario analysis by writing model to accept a column of inputs selected using INDEX, and data tables (use INDEX where varying more than two dimensions of inputs)
+This will cover:
+
+* Transforming **individual** values (this is dependent on their **types**)
+* Transforming **collections** of values
+* Excel commands - the right way to **apply** these transformations.
+
+.. toctree::
+	:maxdepth: 2
+
+	calculations/collections/records
+
+.. .. include:: calculations/collections/records.rst
